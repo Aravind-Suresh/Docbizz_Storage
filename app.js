@@ -29,7 +29,7 @@ app.use(multer({
 
 app.post('/', function (req, res) {
   debugger;
-  res.end(JSON.stringify({result: true, url:'http://52.74.17.151/uploads/' + req.files.uploadedFile.name}));
+  res.end(JSON.stringify({result: true, url:'http://54.169.241.197/uploads/' + req.files.uploadedFile.name}));
 });
 
 // catch 404 and forward to error handler
