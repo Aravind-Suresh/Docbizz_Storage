@@ -1,7 +1,7 @@
 var obj = {
 	"files":{
 		"pictures":{
-			"STANDARD_QUALITY":"30"
+			"STANDARD_QUALITY":"5"
 		}
 	}
 };

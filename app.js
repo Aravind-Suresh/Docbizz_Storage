@@ -31,8 +31,8 @@ app.post('/', function (req, res) {
 	debugger;
 	if(req.body.compress) {
 		debugger;
-		var settings = require('settings');
-		var util = require('util');
+		var settings = require('./settings');
+		var util = require('./util');
 		var loc = req.files.uploadedFile.path;
 		debugger;
 		util.shellExecLine('convert -quality ' + settings.files.pictures.STANDARD_QUALITY + ' ' + loc + ' ' + loc).then(function(result) {
